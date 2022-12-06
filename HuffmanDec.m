@@ -25,5 +25,10 @@ for x=1:f
     end
 end
 
+%Menu para recuperar
+if opc==1
+    img=ind2rgb(img,colormap);
+end
+
 figure
 imshow(img)
